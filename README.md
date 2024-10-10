@@ -6,12 +6,12 @@ For more see [Renovate Docs][renovate-config-presets].
 
 ## 🚀 Usage
 
-Enable Renovate in your repository and just `extends` in `.renovaterc.json5`.
+Enable Renovate in your repository and just `extends` in `.renovaterc.json`.
 
 ```json
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>literat/renovate-config"]
+  "extends": ["local>literat/renovate-config"]
 }
 ```
 
@@ -23,7 +23,7 @@ Default preset
 
 ```json
 {
-  "extends": ["github>literat/renovate-config"]
+  "extends": ["local>literat/renovate-config"]
 }
 ```
 
@@ -35,7 +35,7 @@ Schedule weekly non-office hours
 
 ```json
 {
-  "extends": ["github>literat/renovate-config/scheduleWeeklyNonOfficeHours.json5"]
+  "extends": ["local>literat/renovate-config:scheduleWeeklyNonOfficeHours"]
 }
 ```
 
