@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "groupName": "all dev dependencies",
+      "groupSlug": "all-dev",
+      "matchManagers": ["{{arg0}}"],
+      "separateMajorMinor": false,
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "matchDepTypes": [
+        "devDependencies"
+      ]
+    }
+  ]
+}
