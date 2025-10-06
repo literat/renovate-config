@@ -13,5 +13,9 @@
   ],
   "branchPrefix": "dependencies/",
   "commitMessagePrefix": "deps: ",
-  "baseBranches": ["main"]
+  "baseBranches": ["main"],
+  // Security and Stability: Wait at least 7 days before updating any new version
+  // Delay the supply chain attack impact by waiting
+  // @see: https://docs.renovatebot.com/configuration-options/#minimumreleaseage
+  "minimumReleaseAge": "7d"
 }
