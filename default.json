@@ -12,5 +12,6 @@
     "dependencies"
   ],
   "branchPrefix": "dependencies/",
-  "commitMessagePrefix": "deps: "
+  "commitMessagePrefix": "deps: ",
+  "baseBranches": ["main"]
 }
