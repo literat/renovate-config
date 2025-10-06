@@ -5,7 +5,8 @@
     ":ignoreModulesAndTests",
     ":autodetectPinVersions",
     "workarounds:all",
-    ":prConcurrentLimit10"
+    ":prConcurrentLimit10",
+    "helpers:pinGitHubActionDigests"
   ],
   "labels": [
     "dependencies"
