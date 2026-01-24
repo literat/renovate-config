@@ -12,7 +12,6 @@
     "dependencies"
   ],
   "branchPrefix": "dependencies/",
-  "commitMessagePrefix": "deps: ",
   "baseBranches": ["main"],
   // Security and Stability: Wait at least 7 days before updating any new version
   // Delay the supply chain attack impact by waiting
